@@ -1,0 +1,46 @@
+@media (max-width: 600px) {
+    #heading h1{
+      line-height: 75px;
+      font-size: 70px;
+    }
+    
+    .blocktext {
+      margin-left: 0px;
+    }
+    #second {
+      padding: 60px 0 0 65vw
+    }
+    #second p {
+      font-size: 13px;
+    }
+    #second a {
+      font-size: 13px;
+    }
+    #minicircle {
+        display: none;
+    }
+    #left-foot p,  #right-foot a {
+      font-size: 10px;
+    }
+    #nav {
+      padding: 20px 20px;
+    }
+  
+  }
+  input,
+  textarea,
+  button,
+  select,
+  a {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+  
+  a:focus,
+  a:visited,
+  a:active {
+    outline: none;
+  }
+  
+  * {
+    -webkit-tap-highlight-color: transparent;
+  }
